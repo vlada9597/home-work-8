@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Один блок ліворуч, другий праворуч-->
+    <div class="container">
+        <div class="block_left-1">Лівий блок</div>
+        <div class="block_right-1">Правий блок</div>
+    </div>
+
+    <!-- Oдин блок ліворуч, кілька блоків праворуч -->
+    <div class="container">
+        <div class="block_left-2">Лівий блок</div>
+        <div class="block_right-2">Правий блок 3</div>
+        <div class="block_right-2">Правий блок 2</div>
+        <div class="block_right-2">Правий блок 1</div>
+    </div>
+
+    <!-- Два блоки ліворуч, два праворуч-->
+    <div class="container">
+      <div class="block_left-3">Лівий блок 1</div>
+      <div class="block_left-3">Лівий блок 2</div>
+      <div class="block_right-3">Правий блок 2</div>
+      <div class="block_right-3">Правий блок 1</div>
+    </div>
+    
+    <!-- Три блоки праворуч (два з них один під одним) -->
+    <div class="container2">
+       <div class="container-of--box">
+          <div class="box_right-align">
+             <div class="block_right--main-4">Правий блок 1</div>
+                <div class="box_right-2">
+                  <div class="block_right-4">Правий блок 2</div>
+                  <div class="block_right-4">Правий блок 3</div>
+               </div>
+          </div>
+      </div> 
+    </div>
+
+    <!--Три блоки по центру (два з них один під одним) -->
+    <div class="container3">
+      <div class="box">
+         <div class="block_center--main-5">Центр 1</div>
+          <div class="box2">
+             <div class="block_center-5">Центр 2</div>
+             <div class="block_center-5">Центр 3</div>
+          </div>
+      </div>
+    </div>
+
+</body>
+</html>
